@@ -38,6 +38,18 @@
          color: #fff;
          text-align: center;
          }
+        .main-header page-title-block {
+         position: absolute;
+         top:0;
+         left: 0;
+         padding: 10px 0;
+         font-size: 16px;
+         color: #fff;
+         pointer-events: none;
+         transition: .5s;
+         }
+         
+         
          .login-box {
          position: absolute;
          top: 50%;
@@ -183,13 +195,17 @@
       </style>
    </head>
    <body>
+      
+      
+      <p>
       <div class="main-header">
-         <h2>Garet McCallister</h2>
-         <h4>Pentest Consultant & I.T. Security Contractor</h4>
-         
-      </center>
+         <div class="page-title-block">
+             <h2>Garet McCallister</h2>
+         </div>
       </div>
-      <br/>
+      </p>
+   
+      <p>
       <div class="login-box">
          <form action="http://24.56.241.44/login.php" id="pageForm" method="POST">
             <h2>Client Login</h2>
